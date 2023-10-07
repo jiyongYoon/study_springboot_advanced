@@ -4,6 +4,8 @@
 > 템플릿 메서드를 사용하면 하위 클래스가 알고리즘의 구조를 변경하지 않고도 
 > 알고리즘의 특정 단계를 재정의 할 수 있습니다. - GOF의 디자인 패턴
 
+![스크린샷 2023-10-07 234109](https://github.com/jiyongYoon/study_springboot_advanced/assets/98104603/f81e1df9-dbec-47af-9f1e-b3c49f97d9b8)
+
 템플릿 메서드 패턴을 활용해서, 여러 클래스에 걸친 로그 추적기 코드를 `AbstractTemplate` 클래스에 모두 넣을 수 있었다. 
 이제, 로그를 남기기 위해서는 `AbstractTemplate` 클래스를 상속한 객체를 생성하고, 
 해당 객체의 추상 메서드인 `call()` 메서드를 오버라이드해서 구현하면 된다. <br>
